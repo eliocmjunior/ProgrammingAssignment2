@@ -2,7 +2,6 @@
 ## functions do
 
 ## Put matrix on cache memory
-
 makeCacheMatrix <- function(x = matrix()) {
       m <- NULL
             set <- function(y) {
@@ -18,7 +17,6 @@ makeCacheMatrix <- function(x = matrix()) {
       }
 
 ## Verify cached matrix and computes
-
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         m <- x$get_inv()
